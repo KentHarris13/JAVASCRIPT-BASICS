@@ -21,6 +21,19 @@ function sum(num1,num2){
 */
 
 //CODE HERE
+//the correct code
+
+// function greaterThanFive(number){
+//   if(numbersPutIn > 5){
+//     console.log(true)
+//     return true
+//   }else{
+//     console.log(false)
+//     return false
+//   }
+// }
+
+
 let numbersPutIn = [3]
 
 function greaterThanFive(arr){
@@ -45,7 +58,7 @@ console.log(arrayEvaluator)
 */
 
 //CODE HERE
-let wordNames = ['Zars']
+// let wordNames = ['Zars']
 
 function findZWords(word) {
 

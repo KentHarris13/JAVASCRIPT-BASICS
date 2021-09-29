@@ -36,8 +36,8 @@ var gitHubDefinition = 'GitHub is a onlie website that is cloud-based that helps
 
 //CODE HERE
 let init = {
-    description: "currently still not sure what this does",
-    codeProperties: "Initialized an empty Git repository"
+    description: "Git init just creates a repository",
+    codeProperties: "So if you want to make a repo in a folder you just run git init and it will start tracking changes in that file."
 }
 
 //////////////////PROBLEM 4////////////////////
@@ -59,8 +59,8 @@ let clone = {
 
 //CODE HERE
 let status = {
-    description: "a mouse is an object (no clue what im doing right now",
-    codeProperties: "something material that your can percive with your senses"
+    description: "Will tell you where you're at as far as tracking any changes you've made.",
+    codeProperties: "Helpful to see where your at"
 }
 //////////////////PROBLEM 6////////////////////
 /*
@@ -81,8 +81,8 @@ let add = {
 
 //CODE HERE
 let commit = {
-    description:"this is to show what you have currently worked on",
-    codeProperties:"either your done or want to save what you have worked on to GitHub"
+    description:"Will take changes that you've added and save a version of the project/repo with those changes.",
+    codeProperties:"Will add those changes for all to see(if you want it that way)"
 }
 
 //////////////////PROBLEM 8////////////////////
@@ -93,6 +93,6 @@ let commit = {
 
 //CODE HERE
 let push = {
-    description:"this add the changes you wanted",
-    codeProperties:"you use this to upload stuff to GitHub(I know this stuff is wrong)"
+    description:"takes everything youve commited and pushes it to GitHub",
+    codeProperties:"you use this to upload stuff to GitHub"
 }

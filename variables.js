@@ -13,7 +13,7 @@ console.log(favNum)
 /* Create a variable called 'lovesCode' and assign it a boolean value. */
 
 //CODE HERE
-const lovesCode = 'true'
+const lovesCode = true
 const lovesCode2 = Boolean(lovesCode)
 console.log(lovesCode2)
 //////////////////PROBLEM 4////////////////////

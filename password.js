@@ -1,14 +1,14 @@
 console.log('Welcome, type in a password with at least 10 charaters')
 
-function passsword(obj){
-  let responses = []
-  for (let i = 0; i < arr.length; i++){
-    if (arr[i] > 100){
-      answers.push("Correct")
-    } else {
-    answers.push("Try again need more charaters")
-    }
-    return answers
+// const passwordInput = required('passwordInput').create
+
+function password(){
+  if (password.length >= 10){
+    console.log("Longer password required")
+  } else {
+    console.log("Login Corret")
   }
-  let personsPassword = passsword("asdfasdf")
-  console.log(personsPassword)
+}
+let passwordInput = password("asd");
+console.log(passwordInput) 
+

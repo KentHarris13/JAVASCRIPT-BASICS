@@ -55,6 +55,21 @@ console.log(greeting(me))
 */
 
 //CODE HERE
+
+//right response
+// function carFactory(make, model, year){
+//   let myCar = {
+//     make: make,
+//     model: model,
+//     year: year
+//   }
+//   if(myCar.year > 2018){
+//     myCar.isNew = true
+//   }
+//   return myCar
+// }
+// carFactory('toyota', 'camry', 2020)
+
 class carFactory {
   constructor (make, model, year, isNew){
     this.make = model
